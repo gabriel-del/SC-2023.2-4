@@ -21,7 +21,7 @@ Panorama geral dos dados...
 
 ### Ferramentas
 
-NumPy, Pandas, Matplotlib, Seaborn
+NumPy, Pandas, Matplotlib, Seaborn, Plotly.Express
 
 
 <!-- Where do the guests come from?
