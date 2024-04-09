@@ -34,8 +34,11 @@ df = df.drop('arrival_date_year',axis=1)
 # df = df.drop('arrival_date_month',axis=1)
 df = df.drop('arrival_date_day_of_month',axis=1)
 
+df.drop(df[df['adr']<0].index, inplace= True)
+df['pay_per_night_mean'] = df["adr"] / df["total_guests"]
 
-with pd.option_context('display.max_columns', None):
-    print(df.head())
+
+# with pd.option_context('display.max_columns', None):
+    # print(df.head())
 
 df.to_csv('processed.csv', index=False)
