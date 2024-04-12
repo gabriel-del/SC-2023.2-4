@@ -2,7 +2,7 @@
 Trabalho de conclusão do 4 módulo (Estatística) do Santander Coders 2023.2
 
 * [Apresentação](presentation.ipynb)
-* [Dataset](hotel_bookings.csv)
+* [Dataset](hotel_bookings.csv): [link](https://www.kaggle.com/datasets/jessemostipak/hotel-booking-demand)
 * [Script para o processamento dos dados](process.py)
 * [Dataset pós processamento](processed.csv)
 
