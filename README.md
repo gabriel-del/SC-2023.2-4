@@ -1,6 +1,10 @@
 # SC-2023.2-4
 Trabalho de conclusão do 4 módulo (Estatística) do Santander Coders 2023.2
 
+* [Apresentação](presentation.ipynb)
+* [Dataset](hotel_bookings.csv)
+* [Script para o processamento dos dados](process.py)
+* [Dataset pós processamento](processed.csv)
 
 ## Equipe
 * Gabriel
@@ -31,4 +35,4 @@ Which are the most busy month?
 How long do people stay at the hotels?
 Bookings by market segment
 How many bookings were canceled?
-Which month have the highest number of cancelations? -->
+Which month have the highest number of cancellations? -->
